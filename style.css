@@ -1,0 +1,35 @@
+html {
+    font-family: Avenir, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 1em;
+    background: linear-gradient(silver, white);
+}
+
+#img-container {
+    width: 50%;
+    min-width: 200px;
+    max-width: 500px;
+}
+
+#img-container img {
+    width: 100%;
+    height: auto;
+}
+
+#nav-bar li {
+    list-style: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 2px;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
