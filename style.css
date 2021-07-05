@@ -99,7 +99,9 @@ input {
 
 .icon-img {
     width: 100%;
-    height: auto;    
+    height: auto; 
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px silver;   
 }
 
 .description {
