@@ -1,6 +1,7 @@
 html {
     font-family: Avenir, sans-serif;
     --border: 0px solid black;
+    color: #363430;
 }
 
 body {
@@ -18,6 +19,7 @@ body {
     justify-content: space-between;
     padding: 0px 1em;
     border: var(--border);
+    background: linear-gradient(silver, #F0E9D8);
 }
 
 #img-container {
@@ -88,6 +90,7 @@ input {
 
 .icon {
     display: flex;
+    align-items: center;
 }
 
 .icon-img-container {
