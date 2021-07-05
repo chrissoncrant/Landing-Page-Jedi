@@ -8,6 +8,9 @@
         <link href="style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
+        <div class="container">
+            
+        </div>
         <header id="header">
             <div id="img-container">
                 <img id="header-img" src="Images/Jedi-Logo.png" alt="the symbol of the order of the Jedi">
@@ -29,6 +32,53 @@
                 </ul>
             </nav>
         </header>
+
+        <section id="hero">
+            <h2>Is the force with you?</h2>
+            <p id="hero-p">Enter your email and find out.</p>
+            <form id="form" action="">
+                <input id="email" type="email" name="email" placeholder="You will enter your email here" required>
+                <input id="submit" type="submit" value="Get Started" class="btn">
+            </form>
+        </section>
+        <div class="container">
+            <section class="features">
+                <div class="grid">
+                    <div class="icon">
+                        <div class="icon-img-container">
+                            <img class="icon-img" src="Images/light-saber.jpg" alt="light saber image">
+                        </div>
+                        <div class="description">
+                            <h2>Light Sabers!</h2>
+                            <p>Learn to use the light saber! Available in many color!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="icon">
+                        <div class="icon-img-container">
+                            <img class="icon-img" src="Images/x-wing.png" alt="X-Wing Fighter Jet">
+                        </div>
+                        <div class="description">
+                            <h2>Space Flight!</h2>
+                            <p>Learn the art of flying through deep space and zero gravity dog fighting!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="icon">
+                        <div class="icon-img-container">
+                            <img class="icon-img" src="Images/yoda-head.png" alt="">
+                        </div>
+                        <div class="description">
+                            <h2>The Force!</h2>
+                            <p>Learn how to utilize the force to aid those around you for the betterment of all!</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
         <script src="script.js"></script>
        <!-- TEST SCRIPT
            <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
