@@ -50,6 +50,12 @@ ul {
     color: black;
 }
 
+.nav-link:hover {
+    color: white;
+    font-size: 1.1em;
+    text-shadow: 0px 0px 6px black;
+}
+
 #hero {
     width: 75%;
     margin: 105px auto 30px auto;
@@ -94,14 +100,16 @@ input {
 }
 
 .icon-img-container {
-    width: 90px;
+    max-width: 90px;
+    max-height: 90px;
+    min-width: 90px;
+    min-height: 90px;
 }
 
 .icon-img {
     width: 100%;
     height: auto; 
-    border-radius: 20px;
-    box-shadow: 0px 0px 15px silver;   
+    box-sizing: border-box;  
 }
 
 .description {
