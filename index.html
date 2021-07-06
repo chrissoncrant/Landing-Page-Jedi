@@ -8,9 +8,6 @@
         <link href="style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <div class="container">
-            
-        </div>
         <header id="header">
             <div id="img-container">
                 <img id="header-img" src="Images/Jedi-Logo.png" alt="the symbol of the order of the Jedi">
@@ -21,13 +18,10 @@
                         <a href="#why" class="nav-link">Why</a>
                     </li>
                     <li>
-                        <a href="#" class="nav-link">How</a>
+                        <a href="#how" class="nav-link">How</a>
                     </li>
                     <li>
-                        <a href="#" class="nav-link">Where</a>
-                    </li>
-                    <li id="last-list-item">
-                        <a href="#" class="nav-link">When</a>
+                        <a href="#pricing" class="nav-link">Pricing</a>
                     </li>
                 </ul>
             </nav>
@@ -41,17 +35,19 @@
                 <input id="submit" type="submit" value="Get Started" class="btn">
             </form>
         </section>
+
         <div class="container">
+
             <section id="why" class="features">
                 <div class="grid">
                     <div class="icon">
                         <div class="icon-img-container">
                             <img class="icon-img" src="Images/light-saber.jpg" alt="light saber image">
                         </div>
-                        <div class="description">
-                            <h2>Light Sabers!</h2>
-                            <p>Learn to use the light saber! Available in many color!</p>
-                        </div>
+                    </div>
+                    <div class="description">
+                        <h2>Light Sabers!</h2>
+                        <p>Learn to use the light saber! Available in many colors!</p>
                     </div>
                 </div>
                 <div class="grid">
@@ -59,10 +55,10 @@
                         <div class="icon-img-container">
                             <img class="icon-img" src="Images/x-wing.png" alt="X-Wing Fighter Jet">
                         </div>
-                        <div class="description">
-                            <h2>Space Flight!</h2>
-                            <p>Learn the art of flying through deep space and zero gravity dog fighting!</p>
-                        </div>
+                    </div>
+                    <div class="description">
+                        <h2>Space Flight!</h2>
+                        <p>Learn the art of flying through deep space and zero gravity dog fighting!</p>
                     </div>
                 </div>
                 <div class="grid">
@@ -70,20 +66,68 @@
                         <div class="icon-img-container">
                             <img class="icon-img" src="Images/yoda-head.png" alt="head of Yoda">
                         </div>
-                        <div class="description">
-                            <h2>The Force!</h2>
-                            <p>Learn how to utilize the force to aid those around you for the betterment of all!</p>
-                        </div>
+                    </div>
+                    <div class="description">
+                        <h2>The Force!</h2>
+                        <p>Learn how to utilize the force to aid those around you for the betterment of all!</p>
                     </div>
                 </div>
             </section>
+
+            <section id="how">
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/LMa0_cV5RJ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+
+            <section id="pricing">
+                <div class="product" id="padawan">
+                    <div class="level">Padawan
+                        <h2>$500</h2>
+                    </div>
+                    <ol>
+                        <li>4 Weeks</li>
+                        <li>Class of 60</li>
+                        <li>Q & A Sessions</li>
+                        <li>Badge upon completion</li>
+                    </ol>
+                    <button class="btn">Select</button>
+                </div>
+                <div class="product" id="knight">
+                    <div class="level">Knight
+                        <h2>$1500</h2>
+                    </div>
+                        <ol>
+                            <li>8 Weeks</li>
+                            <li>Class of 20</li>
+                            <li>One 1x1 session with a Jedi Master</li>
+                            <li>All from Padawan package + Knight Robe</li>
+                        </ol>
+                        <button class="btn">Select</button>
+                </div>
+                <div class="product" id="master">
+                    <div class="level">Master
+                        <h2>$3000</h2>
+                    </div>
+                    <ol>
+                        <li>16 Weeks</li>
+                        <li>Class of 8</li>
+                        <li>8 1x1 session with a Jedi Master</li>
+                        <li>All from Knight package + 4 weeks additional Light Saber training post course</li>
+                    </ol>
+                    <button class="btn">Select</button>
+                </div>
+            </section>
         </div>
-
-        <!-- https://youtu.be/LMa0_cV5RJ4 Star Wars Training Vid for imbed-->
-
+        <footer>
+            <ul>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <span>Copyright 2021, The Jedi Bootcamp</span>
+        </footer>
         <script src="script.js"></script>
-       <!-- TEST SCRIPT
+
            <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-        -->
+
     </body>
 </html>

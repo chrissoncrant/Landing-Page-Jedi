@@ -45,7 +45,7 @@ ul {
 
 }
 
-.nav-link {
+a {
     text-decoration: none;
     color: black;
 }
@@ -86,12 +86,21 @@ input {
 
 .btn {
     cursor: pointer;
+    padding: 0 20px;
+    height: 40px;
+    font-size: 1em;
+    text-transform: uppercase;
+    border-radius: 2px;
 }
 
 .container {
-    width: 45%;
-    margin: auto;
+    width: 60%;
+    margin: 0 auto;
     border: var(--border);
+}
+
+.grid {
+    display: flex;
 }
 
 .icon {
@@ -113,5 +122,130 @@ input {
 }
 
 .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
     margin-left: 2em;
+}
+
+#how {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#pricing {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: calc(100%/3);
+    margin: 10px;
+    background-color: #ebe8e1;
+}
+
+.product > .level {
+    padding: 15px 0 5px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #d8d6d3;
+}
+
+.product > h2 {
+    margin-top: 15px;
+}
+
+.product ol {
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0;
+
+}
+
+ol li {
+    list-style: none;
+    list-style-position: inside;
+    padding: 5px 10px;
+}
+
+.product button {
+    border: none;
+    margin: 15px 0;
+    background-color: #4bf24b;
+    font-weight: 700;
+}
+
+footer {
+    margin-top: 30px;
+    background: linear-gradient(#F0E9D8, silver);
+    padding: 20px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer li {
+    list-style: none;
+    padding: 0 5px;
+}
+
+footer span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em
+}
+
+@media (max-width: 600px) {
+    #header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .grid {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .description {
+        margin: 0;
+    }
+
+    #pricing {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product {
+        width: 100%;
+    }
+
+    footer ul {
+        justify-content: center;
+    }
+
+    footer span {
+        justify-content: center;
+    }
+
+
+
 }
